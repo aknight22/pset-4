@@ -18,5 +18,6 @@ do {
 
 let average = sum / count; 
 
-average = average.toLocaleString("en", {MAXIMUM_FRACTION_DIGITS: 3, MINIMUM_FRACTION_DIGITS: 3})
- console.log(average);
+average = average.toLocaleString("en", {MAXIMUM_FRACTION_DIGITS: 3, MINIMUM_FRACTION_DIGITS: 3});
+
+ console.log("/n" + average + ".");
