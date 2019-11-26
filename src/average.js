@@ -16,5 +16,7 @@ do {
   }
 } while (Number.isNaN(number) || (!Number.isInteger(number) || number >= 0));
 
+let average = sum / count; 
 
- console.log(sum / count);
+average = average.toLocaleString("en", {MAXIMUM_FRACTION_DIGITS: 3, MINIMUM_FRACTION_DIGITS: 3})
+ console.log(average);
